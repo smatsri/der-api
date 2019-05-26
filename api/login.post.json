@@ -1,0 +1,17 @@
+{
+  "$$": {
+    "matches": [
+      {
+        "match": {
+          "user": "user2"
+        },
+        "result": {
+          "success": false
+        }
+      }
+    ],
+    "default": {
+      "success": true
+    }
+  }
+}
