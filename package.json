@@ -1,7 +1,8 @@
 {
   "name": "dir-api",
   "version": "1.1.0",
-  "description": "",
+  "description": "a quick mock api",
+  "homepage": "https://github.com/smatsri/der-api",
   "main": "server.js",
   "scripts": {
     "watch": "nodemon server.js",
