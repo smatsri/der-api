@@ -1,0 +1,12 @@
+{
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "eqeqeq": 1
+  },
+  "plugins": [],
+  "parserOptions": {
+    "ecmaVersion": 2017
+  }
+}
