@@ -5,13 +5,15 @@
         "match": {
           "a": 1
         },
-        "result": {
-          "ok": 100
-        }
+        "data": "not found",
+        "statusCode": 404
       }
     ],
     "default": {
-      "ok": 1
+      "data": {
+        "ok": 1
+      },
+      "statusCode": 200
     }
   }
 }
