@@ -3,15 +3,20 @@
     "matches": [
       {
         "match": {
-          "user": "user2"
+          "username": "shai",
+          "password": "123456"
         },
-        "result": {
-          "success": false
-        }
+        "data": {
+          "success": true
+        },
+        "statusCode": 200
       }
     ],
     "default": {
-      "success": true
+      "data": {
+        "message": "unauthorized"
+      },
+      "statusCode": 401
     }
   }
 }
