@@ -1,10 +1,12 @@
 #!/usr/bin/env node
 
 const express = require("express");
+const cors = require('cors');
 const apiHandler = require('./lib/api').handler
 const config = require('./lib/config')
 
 const app = express();
+app.use(cors());
 app.use(express.json()); // to support JSON-encoded bodies
 app.use(express.urlencoded());
 
