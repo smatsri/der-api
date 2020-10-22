@@ -3,7 +3,7 @@
     "matches": [
       {
         "match": {
-          "a": true
+          "b": 1
         },
         "data": "not found",
         "statusCode": 404
@@ -11,7 +11,7 @@
     ],
     "default": {
       "data": {
-        "ok": 1
+        "ok": true
       },
       "statusCode": 200
     }
