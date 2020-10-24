@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 const express = require("express");
 const cors = require('cors');
 const apiHandler = require('./lib/api').handler
